@@ -3,7 +3,17 @@
         "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
         "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
 
-<!-- This is a modified version of the google checkstyle file. -->
+<!--
+    Checkstyle configuration that checks the Google coding conventions from Google Java Style
+    that can be found at https://google.github.io/styleguide/javaguide.html.
+
+    Checkstyle is very configurable. Be sure to read the documentation at
+    http://checkstyle.sf.net (or in your downloaded distribution).
+
+    To completely disable a check, just comment it out or delete it from the file.
+
+    Authors: Max Vetrenko, Ruslan Diachenko, Roman Ivanov.
+ -->
 
 <module name = "Checker">
     <property name="charset" value="UTF-8"/>
@@ -30,7 +40,7 @@
             <property name="allowNonPrintableEscapes" value="true"/>
         </module>
         <module name="LineLength">
-            <property name="max" value="100"/>
+            <property name="max" value="120"/>
             <property name="ignorePattern" value="^package.*|^import.*|a href|href|http://|https://|ftp://"/>
         </module>
         <module name="AvoidStarImport"/>
@@ -44,7 +54,7 @@
         <module name="LeftCurly">
             <property name="maxLineLength" value="100"/>
         </module>
-        <module name="RightCurly"/>
+        <!--<module name="RightCurly"/>-->
         <module name="RightCurly">
             <property name="option" value="alone"/>
             <property name="tokens" value="CLASS_DEF, METHOD_DEF, CTOR_DEF, LITERAL_FOR, LITERAL_WHILE, LITERAL_DO, STATIC_INIT, INSTANCE_INIT"/>
@@ -96,11 +106,11 @@
             <message key="name.invalidPattern"
                      value="Parameter name ''{0}'' must match pattern ''{1}''."/>
         </module>
-        <module name="CatchParameterName">
+        <!--<module name="CatchParameterName">
             <property name="format" value="^[a-z][a-z0-9][a-zA-Z0-9]*$"/>
             <message key="name.invalidPattern"
                      value="Catch parameter name ''{0}'' must match pattern ''{1}''."/>
-        </module>
+        </module>-->
         <module name="LocalVariableName">
             <property name="tokens" value="VARIABLE_DEF"/>
             <property name="format" value="^[a-z][a-z0-9][a-zA-Z0-9]*$"/>
