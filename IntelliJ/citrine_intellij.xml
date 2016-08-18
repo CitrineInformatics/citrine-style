@@ -1,0 +1,26 @@
+<code_scheme name="Citrine">
+  <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="50" />
+  <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="30" />
+  <option name="IMPORT_LAYOUT_TABLE">
+    <value>
+      <package name="com.google" withSubpackages="true" static="false" />
+      <package name="" withSubpackages="true" static="true" />
+      <emptyLine />
+      <package name="" withSubpackages="true" static="false" />
+      <emptyLine />
+      <package name="javax" withSubpackages="true" static="false" />
+      <package name="java" withSubpackages="true" static="false" />
+      <emptyLine />
+    </value>
+  </option>
+  <MarkdownNavigatorCodeStyleSettings>
+    <option name="RIGHT_MARGIN" value="72" />
+  </MarkdownNavigatorCodeStyleSettings>
+  <ScalaCodeStyleSettings>
+    <option name="classCountToUseImportOnDemand" value="1000000000" />
+    <option name="importMembersUsingUnderScore" value="false" />
+  </ScalaCodeStyleSettings>
+  <XML>
+    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+  </XML>
+</code_scheme>
