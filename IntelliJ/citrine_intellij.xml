@@ -19,7 +19,6 @@
   </MarkdownNavigatorCodeStyleSettings>
   <ScalaCodeStyleSettings>
     <option name="classCountToUseImportOnDemand" value="1000000000" />
-    <option name="collectImports" value="false" />
     <option name="importMembersUsingUnderScore" value="false" />
     <option name="KEEP_COMMENTS_ON_SAME_LINE" value="true" />
   </ScalaCodeStyleSettings>
