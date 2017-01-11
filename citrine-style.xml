@@ -33,6 +33,10 @@
         <property name="eachLine" value="true"/>
     </module>
 
+    <module name="ImportOrder">
+        <property name="option" value="bottom" />
+    </module>
+
     <module name="TreeWalker">
         <module name="FileContentsHolder"/>
         <module name="OuterTypeFilename"/>
